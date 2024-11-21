@@ -26,12 +26,12 @@ RUN conda install -y habitat-sim headless -c conda-forge -c aihabitat
 ENV HF_HOME /workspaces/explore-eqa/data/huggingface
 
 # Workspace setup (Before building the dev container):
-# Clone the repository: git clone https://github.com/Stanford-ILIAD/explore-eqa.git
-# Download and extract `hm3d-train-habitat-v0.2.tar` to `explore-eqa/data/hm3d-train-habitat-v0.2`
-# Download required models to `explore-eqa/data/huggingface/hub`, or do `huggingface-cli login` and let the scripts handle it
-# Adjust `cfg/*` files as needed
-# - Set `scene_data_path` to `data/hm3d-train-habitat-v0.2`
-# - Set `hf_token` (if present)
+# Clone target repository: `git clone https://github.com/Stanford-ILIAD/explore-eqa.git`.
+# Download and extract `hm3d-train-habitat-v0.2.tar` to `explore-eqa/data/hm3d-train-habitat-v0.2`, as documented [here](https://github.com/matterport/habitat-matterport-3dresearch#-downloading-hm3d-v02:~:text=32G-,hm3d%2Dtrain%2Dhabitat%2Dv0.2.tar,-train).
+# Put your HF token with access to the models at `explore-eqa/data/huggingface/token`.
+# Adjust `cfg/*` files as needed.
+# - Set `scene_data_path` to `data/hm3d-train-habitat-v0.2`.
+# - Set `hf_token` (if present).
 
 # # Please execute (After building the dev container):
 # conda init --all
