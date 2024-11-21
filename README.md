@@ -1,6 +1,6 @@
 # explore-eqa-devcontainer
 
-Dev container &amp; Dockerfile for https://github.com/Stanford-ILIAD/explore-eqa.
+Dev container configuration &amp; Dockerfile for https://github.com/Stanford-ILIAD/explore-eqa.
 
 ## Usage
 
