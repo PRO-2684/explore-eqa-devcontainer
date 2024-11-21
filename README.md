@@ -8,7 +8,7 @@ Dev container configuration &amp; Dockerfile for https://github.com/Stanford-ILI
 
 1. Clone target repository: `git clone https://github.com/Stanford-ILIAD/explore-eqa.git`.
 2. Download and extract `hm3d-train-habitat-v0.2.tar` to `explore-eqa/data/hm3d-train-habitat-v0.2`, as documented [here](https://github.com/matterport/habitat-matterport-3dresearch#-downloading-hm3d-v02:~:text=32G-,hm3d%2Dtrain%2Dhabitat%2Dv0.2.tar,-train).
-3. Put your HF token with access to the models at `explore-eqa/data/huggingface/token`.
+3. Put your HF token with access to [Llama-2-7b-hf](https://huggingface.co/meta-llama/Llama-2-7b-hf) at `explore-eqa/data/huggingface/token`.
 4. Adjust `cfg/*` files as needed.
     - Set `scene_data_path` to `data/hm3d-train-habitat-v0.2`.
     - Set `hf_token` to your HF token (if present).
